@@ -51,7 +51,7 @@ nav{
     transition: all 1s;
     width: 16%;
 }
-button:hover{
+.yes:hover{
     text-shadow: 2px 2px 9px rgb(151, 244, 244);
     text-decoration:underline;
     width: 30dvh;
@@ -198,7 +198,7 @@ body:hover .rest{
 .proj{
     border: 2px solid lightblue;
     width: 250px;
-    height: 300px;
+    height: 350px;
     border-radius: 8px;
     transition: all 0.5s;
     transform-style: preserve-3d;
@@ -383,4 +383,38 @@ footer{
 }
 .butt:hover .download-emoji{
     opacity: 1;
+}
+.highlight {
+  color: #00ffd5;
+  font-weight: 600;
+}
+c{ 
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  background-color: rgb(242, 255, 0);
+  border-radius: 5px;
+  margin: 10px;
+}
+w{ 
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 138, 21);
+  border-radius: 5px;
+  margin: 10px;
+}
+z{ 
+  font-style: italic;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin: 10px;
+  width: 20px;
+}
+.pdt{
+    /* background-color: rgba(240, 248, 255, 0.386);
+    background: linear-gradient(to right, rgba(135, 119, 238, 0.386), rgba(1, 7, 172, 0.386)); */
+    background: linear-gradient(to left,rgba(0, 0, 0, 0.674),rgba(72, 72, 94, 0.568) );
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
 }
