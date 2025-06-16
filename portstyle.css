@@ -255,25 +255,7 @@ body:hover .rest{
         font-size: 25px;
     }
 }
-@media screen and (max-width : 623px){
-    .proj{
-    border: 2px solid lightblue;
-    width: 150px;
-    height: 200px;
-    border-radius: 8px;
-    transition: all 0.5s;
-    }
-    .proj img{
-        width: 100px;
-        height: 100px;
-        margin: 20px;
-        cursor: pointer;
-    }
-    .proj:hover img{
-    transition: all 0.5s;
-    transform: scale(1.35);
-}
-}
+
 .contact-me{
     background-color: rgba(135, 163, 219, 0.653);
     margin: 20px;
@@ -417,4 +399,52 @@ z{
     padding: 20px;
     border-radius: 20px;
     width: 60%;
+}
+@media screen and (max-width : 1200px){
+    .pdt{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width : 692px){
+    .proj{
+        width: 120px;
+        height: 170px;
+    }
+    
+}
+@media screen and (max-width : 360px){
+    .proj{
+        width: 50px;
+        height: 140px;
+    }
+    
+}
+@media screen and (max-width : 623px){
+    .proj{
+    border: 2px solid lightblue;
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    transition: all 0.5s;
+    }
+    .proj img{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        cursor: pointer;
+    }
+    .proj:hover img{
+    transition: all 0.5s;
+    transform: scale(1.35);
+    }
+    .projects{
+        gap: 20px;
+    }
+    .pdt{
+        width: 90%;
+    }
+    .proj{
+        font-size: 12px;
+    }
 }
