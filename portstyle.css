@@ -2,18 +2,12 @@ body{
     background: linear-gradient(to right, rgb(0, 0, 0),rgb(65, 52, 110));
 }
 nav{
-    z-index: 10000000000;
-    background-color: rgba(196, 223, 247, 0.247);
+    z-index: 100000000000000000000000000;
+    background-color: rgba(196, 223, 247, 0.452);
+    color: black;
 }
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-.navbar-toggler-icon {
-  filter: invert(1); /* Inverts black to white */
-}
-
 .navbar-brand{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 900;
@@ -21,7 +15,12 @@ nav{
     font-size: xx-larger;
 }
 .nav-link{
-    color: aliceblue;
+    color: rgb(255, 255, 255) !important;
+}
+.nav-link:hover{
+    transition: all 0.5s;
+    
+    text-decoration: overline !important;
 }
 .main{
     display: flex;
@@ -153,18 +152,27 @@ body:hover .rest{
 .circle:hover{
     width: 500px;
     height: 500px;
+
+}
+.circle:hover .skill-word{
+    transition: all 2s;
+    font-size: 2rem;
+    font-weight: 600;
 }
 .skill-name{
     position: absolute;
     opacity: 0;
     font-size: 1.2rem;
     transition: all 1s ease;  
-    border: 2px solid lightblue;
+    /* border: 2px solid lightblue; */
     border-radius: 30px;
     padding: 10px;
 }
 .circle:hover .skill-name{
     opacity: 1;
+}
+.skill-name:hover{
+
 }
 .py { top: 10%;left: 50%;transform: translate(-50%,-50%);}
 .ja { top: 25%;left: 80%;transform: translate(-50%,-50%);}
@@ -176,8 +184,9 @@ body:hover .rest{
 .b{ top: 25%; left: 25%; transform: translate(-50%,-50%);}
 .skill-name:hover{
     text-shadow: 2px 2px 2px white;
-    box-shadow: 2px 2px 2px white;
+    filter: drop-shadow(2px 2px 5px rgb(255, 255, 255));
 }
+
 .main:hover .about-me{
     animation:  slideIn 2s forwards;
 }
@@ -257,7 +266,7 @@ body:hover .rest{
 }
 
 .contact-me{
-    background-color: rgba(135, 163, 219, 0.653);
+    background-color: rgba(135, 163, 219, 0.461);
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
