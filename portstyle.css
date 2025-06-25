@@ -395,8 +395,8 @@ w{
 }
 z{ 
   font-style: italic;
-  color: white;
-  background-color: rgb(0, 0, 0);
+  color: black;
+  background-color: white;
   border-radius: 5px;
   margin: 10px;
   width: 20px;
